@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.titulo {
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    color: var(--verde-escuro);
+}

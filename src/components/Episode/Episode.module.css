@@ -1,0 +1,44 @@
+.card {
+    padding: 1rem 0 1rem 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    border: 2px solid #abc1ab;
+    border-radius: 20px;
+    width: 30%;
+    background-color: #eaf1e7;
+    font-family: var(--fonte-secundaria);
+}
+
+.card:hover {
+    transform: translate(0, -2rem);
+}
+
+.info {
+    text-align: center;
+    width: 282px;
+    align-items: center;
+}
+
+.titulo {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.25rem;
+    color: var(--verde-escuro);
+    font-weight: 800;
+    line-height: 1.75rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.texto {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #4b594b;
+}
+
+.episodio{
+    font-weight: bold;
+}

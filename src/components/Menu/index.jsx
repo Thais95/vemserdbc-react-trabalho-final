@@ -8,8 +8,8 @@ function Menu() {
                 <MenuLink to="/">
                     Início
                 </MenuLink>
-                <MenuLink to="/About">
-                    Personagens
+                <MenuLink to="/Episodios">
+                    Episódios
                 </MenuLink>
                 <MenuLink to="/Feedback">
                     Feedback
