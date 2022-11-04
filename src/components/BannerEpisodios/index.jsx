@@ -12,7 +12,7 @@ const BannerEpisodios = () => {
                     </h1>
 
                     <p className={styles.paragrafo}>
-                        A série possui um total de sessenta e dois episódios divididos em cinco temporadas. A séria foi trasmitida de 20 de janeiro de 2008 a 29 de setembro de 2013. Cada episódio possui em média 45 minutos de duração.
+                        A série possui um total de sessenta e dois episódios divididos em cinco temporadas. Foi transmitida de 20 de janeiro de 2008 a 29 de setembro de 2013. Cada episódio possui em média 45 minutos de duração.
                     </p>
                 </div>
                 <div className={styles.imagens}>
