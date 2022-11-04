@@ -1,4 +1,4 @@
-/* .formu {
+.formu {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,4 +77,4 @@ span {
 
 .espaco{
     margin-right: 5px;
-} */
+}
