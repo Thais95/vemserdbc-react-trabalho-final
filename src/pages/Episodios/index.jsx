@@ -1,3 +1,4 @@
+import BannerEpisodios from 'components/BannerEpisodios';
 import CardEpisode from 'components/Episode';
 import React, { useState, useEffect } from 'react';
 import styles from './Episodes.module.css';
@@ -19,7 +20,10 @@ function Episodios() {
 
   return (
     <>
-      <h1 className={styles.titulo}>Saiba mais sobre os episódios da série</h1>
+      <BannerEpisodios />
+      <h1 className={styles.titulo}>
+        Lista de episódios da série
+      </h1>
       <div className={styles.card}>
         {episodes.map((episode) => <CardEpisode episode={episode} />)}
       </div>
