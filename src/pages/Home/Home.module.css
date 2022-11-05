@@ -59,6 +59,15 @@
     margin: 0.5rem 0 1rem;
 }
 
+.buttonReadMore{
+    background-color:#003c4d; 
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 @media (max-width: 1100px) {
     .post {
         width: 336px;

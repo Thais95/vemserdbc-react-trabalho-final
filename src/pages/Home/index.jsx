@@ -30,6 +30,7 @@ function Home() {
                             alt='Imagem do Post'
                         />
                         <h2 className={styles.titulo}>{character.name}</h2>
+                        <button className={styles.buttonReadMore}>Ler mais</button>
                     </div>
                     );
                 })}
