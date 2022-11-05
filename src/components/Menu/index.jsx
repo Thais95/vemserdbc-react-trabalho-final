@@ -11,8 +11,8 @@ function Menu() {
                 <MenuLink to="/About">
                     Personagens
                 </MenuLink>
-                <MenuLink to="/Feedback">
-                    Feedback
+                <MenuLink to="/Newsletter">
+                    Newsletter
                 </MenuLink>
             </nav>
         </header>
