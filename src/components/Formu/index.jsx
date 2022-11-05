@@ -1,10 +1,10 @@
 import * as yup from 'yup';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-// import axios from 'axios'
+import axios from 'axios'
 import styles from './Formu.module.css'
 
-// import {useState, useEffect} from 'react'
+// import {useEffect} from 'react'
 
 
 
@@ -17,16 +17,19 @@ const schema = yup.object({
 
 function Formu() {
 
-    // const [info, setInfo] = useState([])
 
     const { register, handleSubmit, formState: { errors } } =
         useForm({
             resolver: yupResolver(schema)
         })
 
+
     function onSubmitForm(data){
-        console.log(data);
+        axios.post("http://localhost:5000/info", data)
+        window.location.reload()
     }
+
+     
 
     return (
         <>
