@@ -20,7 +20,7 @@ function AppRoutes() {
             <Route path="/Newsletter" element={<Newsletter/>} />
           </Route>
 
-          <Route path="*" element={<div>Erro 404 - Página não encontrada</div>} />
+          <Route path="*" element={<div>Erro 404 - Página dasdsadsadsadds encontrada</div>} />
         </Routes>
         <Rodape />
 

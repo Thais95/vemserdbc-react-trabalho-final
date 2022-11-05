@@ -11,10 +11,13 @@
     width: 30%;
     background-color: #eaf1e7;
     font-family: var(--fonte-secundaria);
+    transition: 0.5s;
 }
 
 .card:hover {
     transform: translate(0, -2rem);
+    transition: 0.5s;
+
 }
 
 .info {
