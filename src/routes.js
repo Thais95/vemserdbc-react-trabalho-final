@@ -11,7 +11,6 @@ function AppRoutes() {
     <>
       <BrowserRouter>
       
-        <Menu />
         <Routes>
 
           <Route path="/" element={<DefaultPage/>}>
@@ -21,8 +20,8 @@ function AppRoutes() {
           </Route>
 
           <Route path="*" element={<div>Erro 404 - Página dasdsadsadsadds encontrada</div>} />
+          
         </Routes>
-        <Rodape />
 
       </BrowserRouter>
     </>
