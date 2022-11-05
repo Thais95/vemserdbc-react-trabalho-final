@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Episodios from "./pages/Episodios";
 import Menu from "components/Menu";
 import Rodape from "components/Rodape";
 import DefaultPage from "components/DefaultPage";
@@ -16,8 +16,8 @@ function AppRoutes() {
 
           <Route path="/" element={<DefaultPage />}>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/Newsletter" element={<Feedback />} />
+            <Route path="/Episodios" element={<Episodios />} />
+            <Route path="/feedback" element={<Feedback />} />
           </Route>
 
           <Route path="*" element={<div>Erro 404 - Página não encontrada</div>} />
