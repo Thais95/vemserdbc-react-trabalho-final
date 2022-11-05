@@ -16,7 +16,7 @@
   --fonte-secundaria: 'Playfair Display', sans-serif;
 
   font-family: var(--fonte-principal);
-  background-color: #A0AFA0;
+  background-color: #e3e3e3;
 }
 
 #root {

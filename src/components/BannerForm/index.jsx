@@ -12,7 +12,7 @@ const BannerForm = () => {
                     </h1>
 
                     <p className={styles.paragrafo}>
-                        A série possui um total de sessenta e dois episódios divididos em cinco temporadas. Foi transmitida de 20 de janeiro de 2008 a 29 de setembro de 2013. Cada episódio possui em média 45 minutos de duração.
+                        Um dos shows mais premiados e aclamados de todos os tempos, Breaking Bad foi transmitido entre 2008 e 2013, mas teve tamanha repercussão e fãs tão fervorosos, que posteriormente ganhou dois spin-offs: uma série chamada Better Call Saul, e um filme batizado de El Camino.
                     </p>
                 </div>
                 <div className={styles.imagens}>

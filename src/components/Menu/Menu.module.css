@@ -1,10 +1,21 @@
 .navegacao {
-    height: 60px;
+    display: flex;
+    margin: -10px auto;
+    margin-bottom: -25px;
+    width: 40%;
+    height: 95px;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 3rem;
-    background-color: #4b594b;
+    gap: 80px;
+    background: rgba(255, 255, 255, 0.099);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.114);
 }
 
 @media (max-width: 744px) {

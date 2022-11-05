@@ -34,7 +34,7 @@ function Formu() {
     return (
         <>
             <div className={styles.formu}>
-                <h1 className={styles.formh1}>Receba as notícias atualizadas.</h1>
+                <h1 className={styles.formh1}>Receba notícias sobre o mundo de Breaking Bad!</h1>
 
                 <form className={styles.form} onSubmit={handleSubmit(onSubmitForm)}>
 
@@ -61,12 +61,12 @@ function Formu() {
                     <div className={styles.check}>
                         <div className={styles.checked}>
                         <input className={styles.espaco}  type="radio" name="checkUm" id="checkUm" />
-                        <label htmlFor="">Eu concordo com a Política de Privacidade do Breaking Bad.*</label>
+                        <label htmlFor="">Eu concordo com a Política de Privacidade desse Blog.*</label>
                         </div>
 
                         <div className={styles.checked}>
                         <input className={styles.espaco} type="radio" name="checkDois" id="checkDois" />
-                        <label htmlFor="">Eu aceito receber conteúdo educacional e promocional relacionado com os produtos e serviços do Breaking Bad.*</label>
+                        <label htmlFor="">Eu aceito receber conteúdo educacional e promocional relacionado com os produtos e serviços desse Blog.*</label>
                         </div>
                     </div>
 

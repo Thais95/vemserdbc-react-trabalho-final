@@ -1,9 +1,19 @@
 .link {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    color: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    color: #98bb98;
 }
 
 .linkSublinhado {
-    text-decoration: underline;
+    color: #1b1b1b;
+}
+
+.linkSublinhado:hover {
+    color: #1b1b1b;
 }
