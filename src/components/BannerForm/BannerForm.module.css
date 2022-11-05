@@ -1,0 +1,119 @@
+.banner {
+    padding: 3rem 7.5rem 6.25rem;
+    background-color: var(--verde-escuro);
+    /* background-color: rgb(58, 65, 39); */
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ 
+.titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.subtitulo {
+    display: block;
+    font-family: var(--fonte-primaria);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #797979;
+    margin-top: 4.4rem;
+}
+ 
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;    
+}
+ 
+.imagens {
+    position: relative;
+}
+
+.bannerImage {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    bottom: 0;
+    width: 35vw;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.bannerImage:hover {
+    transition: 1s;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px rgb(18, 103, 18);
+}
+ 
+@media (max-width: 1400px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+ 
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+ 
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+ 
+    .imagens {
+        height: 338px;
+    }
+   
+    .imagens > .bannerImage {
+        width: 40vw;
+        top: 80px;
+    }
+   
+    .imagens > .circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+ 
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+ 
+    .titulo {
+        margin-bottom: 2rem;
+    }
+ 
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+ 
+    .imagens {
+        height: 307px;
+    }
+ 
+    .imagens > .bannerImage, .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+   
+    .imagens > .bannerImage {
+        width: 170px;
+        transform: translate(5rem, 0px);
+    }
+   
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+    }
+}
