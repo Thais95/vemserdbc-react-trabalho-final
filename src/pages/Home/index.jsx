@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Home.module.css';
 import Banner from 'components/Banner';
+import { Navigate, createSearchParams, useNavigate } from 'react-router-dom';
 
 function Home() {
 
@@ -17,6 +18,13 @@ function Home() {
             });
     }, []);
 
+    const navigate = useNavigate();
+    
+
+    const goToInfo = (id) => {
+        navigate({ pathname: "/Informacoes", search: `?${createSearchParams({id:id})}` })
+    }
+
     return (
         <>
             <Banner />
@@ -30,7 +38,7 @@ function Home() {
                             alt='Imagem do Post'
                         />
                         <h2 className={styles.titulo}>{character.name}</h2>
-                        <button className={styles.buttonReadMore}>Ler mais</button>
+                        <button type='button' onClick={() =>{goToInfo(character.char_id);}} className={styles.buttonReadMore}>Ler mais</button>
                     </div>
                     );
                 })}

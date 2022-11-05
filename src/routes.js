@@ -6,6 +6,8 @@ import Episodios from "./pages/Episodios";
 import DefaultPage from "components/DefaultPage";
 import Newsletter from "pages/Newsletter";
 import Erro from "components/Erro";
+import Informacoes from "pages/Informacoes";
+
 
 function AppRoutes() {
   return (
@@ -18,6 +20,7 @@ function AppRoutes() {
             <Route path="/" element={<Home />} />
             <Route path="/Episodios" element={<Episodios />} />
             <Route path="/Newsletter" element={<Newsletter/>} />
+            <Route path="/Informacoes" element={<Informacoes/>}/>
           </Route>
 
           <Route path="*" element={<Erro/>} />
