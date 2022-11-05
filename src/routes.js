@@ -4,7 +4,7 @@ import Episodios from "./pages/Episodios";
 import Menu from "components/Menu";
 import Rodape from "components/Rodape";
 import DefaultPage from "components/DefaultPage";
-import Feedback from "pages/Newsletter";
+import Newsletter from "pages/Newsletter";
 
 function AppRoutes() {
   return (
@@ -14,10 +14,10 @@ function AppRoutes() {
         <Menu />
         <Routes>
 
-          <Route path="/" element={<DefaultPage />}>
+          <Route path="/" element={<DefaultPage/>}>
             <Route path="/" element={<Home />} />
             <Route path="/Episodios" element={<Episodios />} />
-            <Route path="/feedback" element={<Feedback />} />
+            <Route path="/Newsletter" element={<Newsletter/>} />
           </Route>
 
           <Route path="*" element={<div>Erro 404 - Página não encontrada</div>} />
