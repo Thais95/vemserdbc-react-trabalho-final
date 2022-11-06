@@ -85,8 +85,9 @@
 
 .span {
     font-weight: 500;
-    font-size: 1rem;
-    color: rgb(237, 218, 200);
+    text-transform: none;
+    font-size: 0.96rem;
+    color: white;
 }
 
 .cardText {
@@ -101,9 +102,10 @@
 }
 
 .texto {
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  rgb(177, 159, 142);
 }
 
 .titulo {
