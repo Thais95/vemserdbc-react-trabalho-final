@@ -63,7 +63,7 @@
 .bannerImage:hover {
     transition: 1s;
     transform: scale(1.02);
-    box-shadow: 1px 1px 15px rgb(8, 86, 2);
+    box-shadow: 1px 1px 15px rgb(135, 52, 14);
 }
  
 @media (max-width: 1400px) {

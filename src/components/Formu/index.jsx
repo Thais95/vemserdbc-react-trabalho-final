@@ -9,9 +9,8 @@ import styles from './Formu.module.css'
 
 
 const schema = yup.object({
-    name: yup.string().notRequired().min(3, 'Nome deve conter mais que 3 letras.'),
-    email: yup.string().email('Email inválido!').required('Campo email OBRIGATÓRIO!'),
-    // phone: yup.string().required('Telefone obrigatório')
+    name: yup.string().notRequired().min(3, 'Nome deve conter no mínimo 3 letras'),
+    email: yup.string().email('Email inválido!').required('Campo de email obrigatório!')
 }).required();
 
 
@@ -28,7 +27,6 @@ function Formu() {
         axios.post("http://localhost:5000/info", data)
         window.location.reload()
     }
-
 
 
     return (
@@ -56,22 +54,15 @@ function Formu() {
                     </div>
                     {errors.email && <span>{errors.email.message}</span>}
 
-                    {/* <div className={styles.field}>
-                        <label>Telefone:</label>
-                        <input className={styles.fieldinput} name='phone' type="tel" {...register('content')} 
-                        placeholder='Digite seu telefone'/>
-                    </div>
-                    {errors.phone && <span>{errors.phone.message}</span>} */}
-
                     <div className={styles.check}>
                         <div className={styles.checked}>
-                            <input className={styles.espaco} type="radio" name="checkUm" id="checkUm" />
-                            <label htmlFor="">Eu concordo com a Política de Privacidade desse Blog.*</label>
+                            <input className={styles.espaco} type="checkbox" name="checkUm" id="checkUm" />
+                            <label htmlFor="checkUm">Eu concordo com a Política de Privacidade desse Blog.<span>*</span></label>
                         </div>
 
                         <div className={styles.checked}>
-                            <input className={styles.espaco} type="radio" name="checkDois" id="checkDois" />
-                            <label htmlFor="">Eu aceito receber conteúdo educacional e promocional relacionado com os produtos e serviços desse Blog.*</label>
+                            <input className={styles.espaco} type="checkbox" name="checkDois" id="checkDois" />
+                            <label htmlFor="checkDois">Eu aceito receber conteúdo educacional e promocional relacionado com os produtos e serviços desse Blog.<span>*</span></label>
                         </div>
                     </div>
 
