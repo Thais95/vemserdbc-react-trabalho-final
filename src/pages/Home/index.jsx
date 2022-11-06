@@ -31,8 +31,8 @@ function Home() {
                             <div key={character.name} className={styles.cardBanner}>
                                 <img
                                     className={styles.capa}
-                                    src={character.img}
-                                    alt='Imagem do Post'
+                                    src={`./assets/${character.char_id}.png`}
+                                    alt={`Foto de ${character.name}`}
                                 />
                             </div>
                             <div key={character.chara_id} className={styles.cardInfo}>
