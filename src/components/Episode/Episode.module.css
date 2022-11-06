@@ -6,18 +6,18 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 1.5rem;
-    border: 2px solid #abc1ab;
-    border-radius: 20px;
-    width: 30%;
-    background-color: #eaf1e7;
-    font-family: var(--fonte-secundaria);
+    /* border: 2px solid #abc1ab;
+    background-color: #eaf1e7; */
+    background-color: #e7ebf1;
+    border: 2px solid #c7d2e2;
+    border-radius: 10px;
+    width: 29%;
     transition: 0.5s;
 }
 
 .card:hover {
     transform: translate(0, -2rem);
     transition: 0.5s;
-
 }
 
 .info {
@@ -27,21 +27,27 @@
 }
 
 .titulo {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 1.25rem;
-    color: var(--verde-escuro);
-    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700;
     line-height: 1.75rem;
-    margin: 0.5rem 0 1rem;
+    text-transform: uppercase;
+    margin: 1rem 0 1.4rem;
+    text-shadow: 1px 2px 3px #ff997c;
 }
 
 .texto {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.96rem;
+    font-weight: 600;
     margin-bottom: 15px;
-    color: #4b594b;
+    line-height: 20px;
+    color: black;
 }
 
 .episodio{
-    font-weight: bold;
+    color: #482218;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
 }

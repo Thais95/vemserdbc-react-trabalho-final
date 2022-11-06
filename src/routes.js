@@ -1,11 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Episodios from "./pages/Episodios";
-// import Menu from "components/Menu";
-// import Rodape from "components/Rodape";
 import DefaultPage from "components/DefaultPage";
 import Newsletter from "pages/Newsletter";
-import Erro from "components/Erro";
+import Erro from "components/Erro"; 
+import Music from "pages/Music";
 
 function AppRoutes() {
   return (
@@ -16,8 +15,9 @@ function AppRoutes() {
 
           <Route path="/" element={<DefaultPage/>}>
             <Route path="/" element={<Home />} />
-            <Route path="/Episodios" element={<Episodios />} />
-            <Route path="/Newsletter" element={<Newsletter/>} />
+            <Route path="/episodios" element={<Episodios />} />
+            <Route path="/trilha-sonora" element={<Music /> } />
+            <Route path="/newsletter" element={<Newsletter/>} />
           </Route>
 
           <Route path="*" element={<Erro/>} />

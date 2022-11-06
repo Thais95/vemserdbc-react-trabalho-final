@@ -7,7 +7,7 @@ function MenuLink({children, to}) {
     return(
         <Link className={`
             ${styles.link}
-            ${location.pathname === to ? styles.linkSublinhado : ''}
+            ${location.pathname === to ? styles.linkActive : ''}
         `} to={to}>
             {children}
         </Link>

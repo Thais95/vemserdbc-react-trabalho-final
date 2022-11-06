@@ -1,13 +1,4 @@
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin-bottom: 2rem;
-
-}
-
-.titulo {
+.musicTitle {
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -19,12 +10,12 @@
     color: rgb(255, 255, 255);
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(1, 2, 74);
-    text-shadow: 4px 4px 1px rgb(216, 229, 255);
+    -webkit-text-stroke-color: rgb(168, 33, 121);
+    text-shadow: 4px 4px 1px rgba(255, 216, 239, 0.7);
     user-select: none;
 }
 
-.titulo2 {
+.musicTitle2 {
     margin-top: -50px;
     color: black;
     text-transform: uppercase;
@@ -39,14 +30,23 @@
     z-index: 2;
 }
 
-.titulo2::after {
+.musicTitle2::after {
     content: '';
     position: relative;
-    margin-left: -150px;
+    margin-left: -140px;
     margin-top: 38px;
     width: 170px;
     height: 30px;
-    background-color: #ff5a31;
+    background-color: rgba(255, 242, 0, 0.843);
     border-radius: 2px;
     z-index: -1;
+}
+
+.musicPlayer {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.musicPlayer iframe {
+    border-radius: 10px;
 }

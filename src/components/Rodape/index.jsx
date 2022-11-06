@@ -5,7 +5,7 @@ function Rodape() {
     return(
         <>
         <footer className={styles.rodape}>
-            <MarcaRegistrada />
+            <MarcaRegistrada className={styles.trademark} />
             Sony Pictures Television Inc.
         </footer>
         </>

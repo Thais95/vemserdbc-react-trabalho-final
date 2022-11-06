@@ -8,10 +8,13 @@ function Menu() {
                 <MenuLink to="/">
                     Início
                 </MenuLink>
-                <MenuLink to="/Episodios">
+                <MenuLink to="/episodios">
                     Episódios
                 </MenuLink>
-                <MenuLink to="/Newsletter">
+                <MenuLink to="/trilha-sonora">
+                    Trilha Sonora
+                </MenuLink>
+                <MenuLink to="/newsletter">
                     Newsletter
                 </MenuLink>
             </nav>
