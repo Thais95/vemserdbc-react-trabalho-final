@@ -1,9 +1,50 @@
 .link {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    color: white;
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.98rem;
+    color: #000000;
+    min-width: 80px;
 }
 
-.linkSublinhado {
-    text-decoration: underline;
+.link:hover {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2634/2634269.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #000000;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 2px 0 #5be4ff;
+    font-weight: bold;
+}
+
+.link:active {
+    transform: translateY(4px);
+    color: black;
+}
+
+.linkActive {
+    color: rgb(162, 162, 162);
+}
+
+@keyframes spring {
+    15% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.2, 1.1);
+    }
+
+    40% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(0.95, 0.95);
+    }
+
+    75% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1.05, 1);
+    }
+
+    100% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: scale(1, 1);
+    }
 }

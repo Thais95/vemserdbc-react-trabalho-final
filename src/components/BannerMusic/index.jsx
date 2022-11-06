@@ -1,7 +1,7 @@
-import styles from './BannerForm.module.css';
-import bannerImage3 from 'assets/banner3.png';
+import styles from './BannerMusic.module.css';
+import bannerImage4 from 'assets/banner.jpg';
 
-const BannerForm = () => {
+function BannerMusic() {
     return (
         <>
             <div className={styles.banner}>
@@ -12,13 +12,13 @@ const BannerForm = () => {
                     </h1>
 
                     <p className={styles.paragrafo}>
-                        Um dos shows mais premiados e aclamados de todos os tempos, Breaking Bad foi transmitido entre 2008 e 2013, mas teve tamanha repercussão e fãs tão fervorosos, que posteriormente ganhou dois spin-offs: uma série chamada Better Call Saul, e um filme batizado de El Camino.
+                        Breaking Bad tem também uma curiosa trilha sonora. Com forte influência de música espanhola, muito pelos cartéis mexicanos e proximidade com a fronteira, os produtores souberam escolher diversas músicas que acabaram se encaixando perfeitamente com os episódios.
                     </p>
                 </div>
                 <div className={styles.imagens}>
                     <img
                         className={styles.bannerImage}
-                        src={bannerImage3}
+                        src={bannerImage4}
                         alt="Walter White and Jesse Pinkman" />
                 </div>
             </div>
@@ -26,4 +26,4 @@ const BannerForm = () => {
     )
 }
 
-export default BannerForm;
+export default BannerMusic;

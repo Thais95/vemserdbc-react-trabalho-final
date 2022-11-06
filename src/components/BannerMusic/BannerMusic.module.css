@@ -8,7 +8,7 @@
     height: 550px;
     color: var(--branco);
     border: 2px solid rgba(255, 255, 255, 0.454);
-    background-color: rgb(2, 0, 38);
+    background-color: rgb(59, 20, 38);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.501);
 }
  
@@ -33,9 +33,9 @@
     font-family: var(--fonte-primaria);
     text-transform: uppercase;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 10px;
-    color: rgba(97, 94, 167, 0.633);
+    color: rgba(255, 115, 180, 0.288);
     user-select: none;
 }
  
@@ -63,7 +63,7 @@
 .bannerImage:hover {
     transition: 1s;
     transform: scale(1.02);
-    box-shadow: 1px 1px 15px #ff5425;
+    box-shadow: 1px 1px 15px rgba(255, 44, 206, 0.844);
 }
  
 @media (max-width: 1400px) {

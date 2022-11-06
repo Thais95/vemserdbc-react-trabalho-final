@@ -1,9 +1,18 @@
 .rodape {
-    background-color: var(--verde-escuro);
-    color: white;
-    padding: 2rem 0;
+    padding: 2.2rem 0;
     display: flex;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
+    color: black;
+    font-weight: 600;
     column-gap: .5rem;
+    background: #ffffffde;
+    border-top: 2px solid rgba(0, 0, 0, 0.11);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.063);
+}
+
+.trademark {
+    width: 20px;
+    height: 20px;
 }

@@ -10,8 +10,8 @@ const CardEpisode = ({ episode }) => {
                     <p className={styles.titulo}>{episode.title}</p>
                     <p className={styles.texto}><span className={styles.episodio}>Episódio:</span> {episode.episode}</p>
                     <p className={styles.texto}><span className={styles.episodio}>Temporada:</span> {episode.season}</p>
-                    <p className={styles.texto}><span className={styles.episodio}>Estreia:</span> {episode.air_date}</p>
-                    <p className={styles.texto}><span className={styles.episodio}>Personagens:</span> {episode.characters.join(", ")}</p>
+                    <p className={styles.texto}><span className={styles.episodio}>Estréia:</span> {episode.air_date}</p>
+                    <p className={styles.texto}><span className={styles.episodio}>Personagens participantes:</span> {episode.characters.join(", ")}</p>
                 </div>
             </main>
         </>

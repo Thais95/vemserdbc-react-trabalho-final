@@ -1,0 +1,50 @@
+.fundo{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    height: 100vh;
+}
+
+.fundo .error{
+    min-width: 400px;
+    color: white;
+    margin-left: 100px;
+    z-index: 2;
+}
+
+.fundo .error h1{
+    font-size: 3.5rem;
+    user-select: none;
+}
+
+.fundo .error p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.img{
+    height: 100%;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 70px;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #011111;
+    color: white;
+    transition: 0.2s;
+}
