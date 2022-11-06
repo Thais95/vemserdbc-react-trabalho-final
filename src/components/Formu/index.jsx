@@ -9,7 +9,7 @@ import styles from './Formu.module.css'
 
 
 const schema = yup.object({
-    name: yup.string().notRequired().min(3, 'Nome deve conter no mínimo 3 letras'),
+    name: yup.string().notRequired().min(3, 'Nome deve conter no mínimo 3 letras').trim(),
     email: yup.string().email('Email inválido!').required('Campo de email obrigatório!')
 }).required();
 
@@ -56,13 +56,13 @@ function Formu() {
 
                     <div className={styles.check}>
                         <div className={styles.checked}>
-                            <input className={styles.espaco} type="checkbox" name="checkUm" id="checkUm" />
+                            <input className={styles.espaco} type="checkbox" name="checkUm" id="checkUm" required />
                             <label htmlFor="checkUm">Eu concordo com a Política de Privacidade desse Blog.<span>*</span></label>
                         </div>
 
                         <div className={styles.checked}>
                             <input className={styles.espaco} type="checkbox" name="checkDois" id="checkDois" />
-                            <label htmlFor="checkDois">Eu aceito receber conteúdo educacional e promocional relacionado com os produtos e serviços desse Blog.<span>*</span></label>
+                            <label htmlFor="checkDois">Eu aceito receber conteúdo educacional e promocional relacionado com os produtos e serviços desse Blog.</label>
                         </div>
                     </div>
 
