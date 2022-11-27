@@ -1,23 +1,18 @@
-# Trabalho final – Blog Breaking Bad
-## Sobre o trabalho
-Trabalho desenvolvido pela Equipe Thaís, Marcus e Daniela.
-Para o desenvolvimento consumimos no projeto a API Breaking Bad, requisitamos as informações dos personagens e episódios da série. Para saber mais, você pode acessar a documentação da API disponível abaixo:
-## Documentação da  API Breaking Bad utilizada no projeto
+# VemRankSer - Sistema de Ranqueamento
+### Trabalho final - 10ª Edição Vem Ser
+Sistema de ranqueamento dos alunos do programa VEM SER DBC.
 
-### Link: https://www.breakingbadapi.com/documentation
-### URL básico da API: https://www.breakingbadapi.com/api/
+# Para rodar o aplicativo
 
-A partir do URL básico, conforme a documentação você pode definir o Endpoint e requisitar as informações que deseja.
-# Para visualizar o nosso blog você precisará:
+Instale as dependências necessárias com os comandos
+```Shell
+# Dentro da pasta do projeto
+npm install
+npm install @hookform/resolvers
+```
 
-📌Comando para instalar servidor json-server 
-### `npm install -g json-server`
-
-📌Comando de instalação de dependências necessárias
-### `npm install`
-
-📌Comando para iniciar o projeto
-### `npm start`
-
-📌Comando para iniciar servidor JSON no projeto
-### `npm run backend`
+Após a instalação, inicie o projeto com
+```Shell
+# Dentro da pasta do projeto
+npm start
+```
